@@ -10,5 +10,7 @@ package QuanLySinhVien;
  * @author Nguyen The Loi
  */
 public class GiaoVu {
-    
+    public String TaiKhoan;
+    public String MatKhau;
+    public String HoTen;
 }

@@ -10,5 +10,12 @@ package QuanLySinhVien;
  * @author Nguyen The Loi
  */
 public class Diem {
+    public float DiemGK;
+    public float DiemCK;
+    public float DiemKhac;
+    public float DiemTongKet;
     
+    public void xuat() {
+        System.out.print(" Diem GK:" + DiemGK + " Diem CK:"+ DiemCK + " Diem Khac:"+ DiemKhac+ " Diem Tong Ket:"+ DiemTongKet);
+    }
 }

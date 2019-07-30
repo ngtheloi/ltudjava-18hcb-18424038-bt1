@@ -10,5 +10,12 @@ package QuanLySinhVien;
  * @author Nguyen The Loi
  */
 public class SinhVien {
+    public String MSSV;
+    public String HoTen;
+    public String GioiTinh;
+    public int CMND;
     
+    public void xuat() {
+        System.out.print("MSSV:" + MSSV + " Ho Ten:"+ HoTen + " Gioi Sinh:"+ GioiTinh+ " CMND:"+CMND);
+    }
 }
